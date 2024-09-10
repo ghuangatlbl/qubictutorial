@@ -8,9 +8,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q0.rdrv":{
@@ -20,9 +19,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q0.rdlo":{
@@ -32,8 +30,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -44,9 +42,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q1.rdrv":{
@@ -56,9 +53,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q1.rdlo":{
@@ -68,8 +64,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -80,9 +76,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q2.rdrv":{
@@ -92,9 +87,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q2.rdlo":{
@@ -104,8 +98,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -116,9 +110,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q3.rdrv":{
@@ -128,9 +121,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q3.rdlo":{
@@ -140,8 +132,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -152,9 +144,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q4.rdrv":{
@@ -164,9 +155,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q4.rdlo":{
@@ -176,8 +166,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -188,9 +178,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q5.rdrv":{
@@ -200,9 +189,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q5.rdlo":{
@@ -212,8 +200,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     },
 
@@ -224,9 +212,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 1
         },
-        "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_qdrv_env{core_ind}",
+        "freq_mem_name": "qubit_qdrv_freq{core_ind}",
     },
 
     "Q6.rdrv":{
@@ -236,9 +223,8 @@
             "samples_per_clk": 16,
             "interp_ratio": 16
         },
-        "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
-        "acc_mem_name": "accbuf{core_ind}"
+        "env_mem_name": "qubit_rdrv_env{core_ind}",
+        "freq_mem_name": "qubit_rdrv_freq{core_ind}",
     },
 
     "Q6.rdlo":{
@@ -248,8 +234,8 @@
             "samples_per_clk": 4,
             "interp_ratio": 4
         },
-        "env_mem_name": "rdloenv{core_ind}",
-        "freq_mem_name": "rdlofreq{core_ind}",
+        "env_mem_name": "qubit_rdlo_env{core_ind}",
+        "freq_mem_name": "qubit_rdlo_freq{core_ind}",
         "acc_mem_name": "accbuf{core_ind}"
     }
 
