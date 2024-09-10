@@ -1520,6 +1520,286 @@
                     }
                 ]
             }
+        ],
+        "Q0Q1CZ": [
+            {
+                "freq": 5365000000.0,
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.27513,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5365000000.0,
+                "phase": -3.34039,
+                "dest": "Q1.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.27513,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q0.freq",
+                "phase": -2.54665
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": 1.17176
+            }
+        ],
+        "Q2Q3CZ": [
+            {
+                "freq": 5162500000.0,
+                "phase": 0.0,
+                "dest": "Q2.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.23843,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5162500000.0,
+                "phase": -1.34106,
+                "dest": "Q3.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.23843,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q2.freq",
+                "phase": 0.46425
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q3.freq",
+                "phase": 0.037519
+            }
+        ],
+        "Q1Q2CZ": [
+            {
+                "freq": 5125600000.0,
+                "phase": 0.0,
+                "dest": "Q1.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.31308,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5125600000.0,
+                "phase": 2.03291,
+                "dest": "Q2.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.31308,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": 2.55502
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q2.freq",
+                "phase": -1.78163
+            }
+        ],
+        "Q3Q4CZ": [
+            {
+                "freq": 5295000000.0,
+                "phase": 0.0,
+                "dest": "Q3.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.58799,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5295000000.0,
+                "phase": -0.92159,
+                "dest": "Q4.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.58799,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q3.freq",
+                "phase": 0.61271
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q4.freq",
+                "phase": 1.2588
+            }
+        ],
+        "Q4Q5CZ": [
+            {
+                "freq": 5344000000.0,
+                "phase": 0.0,
+                "dest": "Q4.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.36716,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5344000000.0,
+                "phase": 0.92997,
+                "dest": "Q5.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.36716,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q4.freq",
+                "phase": -1.86198
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q5.freq",
+                "phase": -2.05073
+            }
+        ],
+        "Q5Q6CZ": [
+            {
+                "freq": 5505000000.0,
+                "phase": 0.0,
+                "dest": "Q5.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.2076,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5505000000.0,
+                "phase": -1.36059,
+                "dest": "Q6.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.2076,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q5.freq",
+                "phase": -0.45937
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q6.freq",
+                "phase": 0.54257
+            }
+        ],
+        "Q6Q7CZ": [
+            {
+                "freq": 5495000000.0,
+                "phase": 0.0,
+                "dest": "Q6.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.29049,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5495000000.0,
+                "phase": -2.08304,
+                "dest": "Q7.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.29049,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q6.freq",
+                "phase": -0.6134
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q7.freq",
+                "phase": 1.13693
+            }
         ]
     }
 }
