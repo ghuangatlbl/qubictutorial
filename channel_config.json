@@ -313,7 +313,7 @@
             "interp_ratio": 1
         },
         "env_mem_name": "qdrvenv{core_ind}",
-        "freq_mem_name": "qdrvfreq{core_ind}",
+        "freq_mem_name": "qdrvfreq{core_ind}"
     },
 
     "Q7.rdrv":{
@@ -327,7 +327,7 @@
             "interp_ratio": 16
         },
         "env_mem_name": "rdrvenv{core_ind}",
-        "freq_mem_name": "rdrvfreq{core_ind}",
+        "freq_mem_name": "rdrvfreq{core_ind}"
     },
 
     "Q7.rdlo":{
