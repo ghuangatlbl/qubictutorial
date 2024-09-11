@@ -342,6 +342,7 @@
         },
         "env_mem_name": "rdloenv{core_ind}",
         "freq_mem_name": "rdlofreq{core_ind}",
+        "acc_mem_name": "qubit_accbuf{core_ind}"
     }
 
 
