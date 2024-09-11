@@ -5,7 +5,7 @@
 
 function qubicsim 
 {
-	docker run -dp 9100:9100 nfruitwala/qubic-qce23-tutorial:latest&
+	docker run -dp 9100:9100 nfruitwala/qubic-qce24-tutorial:latest&
 #	echo "Starting Docker image"
 #	sleep 30
 #	echo "Running Verilator build - takes about a minute"
@@ -38,6 +38,8 @@ _start=1
 
 # This accounts as the "totalState" variable for the ProgressBar function
 _end=100
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -aq)
 
 echo "Simulator setup takes about 3 minutes"
 qubicsim
@@ -45,7 +47,7 @@ sleep 5
 for number in $(seq ${_start} ${_end})
 do
 	ProgressBar ${number} ${_end}
-	sleep 2
+	sleep 1
 done
 echo "Starting Jupyter notebook"
-jupyter notebook
+jupyter-lab
