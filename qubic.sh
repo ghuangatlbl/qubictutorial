@@ -40,6 +40,7 @@ _start=1
 _end=100
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -aq)
+docker pull nfruitwala/qubic-qce24-tutorial:latest
 
 echo "Simulator setup takes about 3 minutes"
 qubicsim
