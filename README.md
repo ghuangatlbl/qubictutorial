@@ -1,17 +1,18 @@
 # Hands-On QubiC - IPDPS25
 
+## Outline
 
-## License
-Qubit Control System (QubiC) Copyright (c) 2021, The Regents of
-the University of California, through Lawrence Berkeley National
-Laboratory (subject to receipt of any required approvals from the
-U.S. Dept. of Energy). All rights reserved.
-If you have questions about your rights to use or distribute this software,
-please contact Berkeley Lab's Intellectual Property Office at
-IPO@lbl.gov.
-NOTICE.  This Software was developed under funding from the U.S. Department
-of Energy and the U.S. Government consequently retains certain rights.  As
-such, the U.S. Government has been granted for itself and others acting on
-its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the
-Software to reproduce, distribute copies to the public, prepare derivative
-works, and perform publicly and display publicly, and to permit others to do so.
+ - Talk: intro to QubiC and quantum computing, tutorial outline (30 min)
+   - we support a lot of classical language constructs
+ - Installation (15 min)
+ - Part 1: Hands-on Introduction to QubiC
+   - Simple pulse-level demos (15 min)
+   - QuTiP: controlling single qubits, look at state/bloch vector (10-15 min)
+   - readout (including QuTiP) (10-15 min)
+   - MCM/branching (20 min)
+   - parameter sweeps (15 min)
+   - Qiskit (maybe switch with MCM/branching); abhi TODO
+  - Part 1b: Using classical hardware to accelerate QC:
+   - RC paper + demo (15 min)
+   - PCE paper + demo (15 min)
+   - ML paper + demo (15 min)
