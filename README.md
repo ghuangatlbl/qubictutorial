@@ -25,11 +25,11 @@ minimal python package installation to run the simulator.
 - The laptop should have some Python environment 3.10 or above
 - Install the qubic simulator package using the below command:
 
-           pip install lbl-qubic
+        pip install lbl-qubic
 
 - Clone the tutorial git repo using below command
 
-git clone [https://gitlab.com/LBL-QubiC/qubictutorial.git](https://gitlab.com/LBL-QubiC/qubictutorial.git)
+        git clone [https://gitlab.com/LBL-QubiC/qubictutorial.git](https://gitlab.com/LBL-QubiC/qubictutorial.git)
 
 
 ## Topics
