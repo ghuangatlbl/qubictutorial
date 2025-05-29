@@ -29,7 +29,7 @@ minimal python package installation to run the simulator.
 
 - Clone the tutorial git repo using below command
 
-        git clone [https://gitlab.com/LBL-QubiC/qubictutorial.git](https://gitlab.com/LBL-QubiC/qubictutorial.git)
+        git clone https://gitlab.com/LBL-QubiC/qubictutorial.git -b ipdps25
 
 
 ## Topics
