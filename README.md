@@ -14,7 +14,7 @@ Participants will gain practical experience through hands-on exercises on
 3. Explore classical control constructs (such as loops and branch) in quantum algorithm
 4. Review advanced classical design features such as AI/ML, randomization, and parameterization on FPGA for novel quantum control co-design
 
-## Outline
+## When
 The tutorial repeats on two days: 
 - June 3rd, 8:30 AM - 12:30 PM 
 - June 4th, 12:45 PM - 4:45 PM
