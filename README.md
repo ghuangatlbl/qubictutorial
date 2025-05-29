@@ -14,7 +14,7 @@ Participants will gain practical experience through hands-on exercises on
 3. Explore classical control constructs (such as loops and branch) in quantum algorithm
 4. Review advanced classical design features such as AI/ML, randomization, and parameterization on FPGA for novel quantum control co-design
 
-## When
+## Schedule
 The tutorial repeats on two days: 
 - June 3rd, 8:30 AM - 12:30 PM 
 - June 4th, 12:45 PM - 4:45 PM
@@ -38,13 +38,13 @@ minimal python package installation to run the simulator.
 | ------ | ------ | ------ |
 | Introduction to Quantum Computing | 30 | |
 | Installation instruction | 15 | |
-|** Part 1: Introduction to QubiC** |
+| **Part 1: Introduction to QubiC**|
 | Basic pulse demo | 15 | |
 |QuTip simulation|30||
-|**Part 2: Exploring classical construct**s|||
+|**Part 2: Exploring classical constructs**|||
 |Branching - mid circuit measurement (MCM)|20||
 |Loops - parameter sweeps|20||
-|**Part 3: Advanced features **|
+|**Part 3: Advanced features**|
 |Qiskit Integration|30||
 |_**Demo only**_|
 |Randomized compiling|15|[https://arxiv.org/html/2406.13967v1](https://arxiv.org/html/2406.13967v1)|
