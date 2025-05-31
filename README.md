@@ -31,7 +31,7 @@ minimal python package installation to run the simulator.
 
         git clone https://gitlab.com/LBL-QubiC/qubictutorial.git -b ipdps25
 
-- Additional Python packages: **jupyterlab**, **qiskit**, **qiskit-qasm3-import**, and **pylatexenc**
+- Additional Python packages: **openpulse**, **jupyterlab**, **qiskit**, **qiskit-qasm3-import**, and **pylatexenc**
 
 ## Topics
 
