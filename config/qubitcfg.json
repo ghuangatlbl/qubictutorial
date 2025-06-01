@@ -182,7 +182,7 @@
                 "dest": "Q0.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.11222212331696187,
+                "amp": 0.10,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -252,15 +252,15 @@
                 "freq": "Q0.readfreq",
                 "phase": 0.0,
                 "dest": "Q0.rdrv",
-                "twidth": 2e-06,
+                "twidth": 1e-06,
                 "t0": 0.0,
-                "amp": 0.01967670502549965,
+                "amp": 1,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25,
-                            "twidth": 2e-06
+                            "ramp_fraction": 0.15,
+                            "twidth": 1e-06
                         }
                     }
                 ]
@@ -269,8 +269,8 @@
                 "freq": "Q0.readfreq",
                 "phase": 1.4806632895920675,
                 "dest": "Q0.rdlo",
-                "twidth": 2e-06,
-                "t0": 6e-07,
+                "twidth": 1e-06,
+                "t0": 0,
                 "amp": 1.0,
                 "env": [
                     {
@@ -278,7 +278,7 @@
                         "paradict": {
                             "phase": 0.0,
                             "amplitude": 1.0,
-                            "twidth": 2e-06
+                            "twidth": 1e-06
                         }
                     }
                 ]
