@@ -23,15 +23,16 @@ The tutorial repeats on two days:
 This is a hands-on tutorial, and we encourage attendees to perform some 
 minimal python package installation to run the simulator.
 - The laptop should have some Python environment 3.10 or above
-- Install the qubic simulator package using the below command:
+- Install the qubic core software and simulator package using the below commands:
 
         pip install lbl-qubic
+        pip install lbl-qubic-emulator
 
 - Clone the tutorial git repo using below command
 
         git clone https://gitlab.com/LBL-QubiC/qubictutorial.git -b ipdps25
 
-- Additional Python packages: **openpulse**, **jupyterlab**, **qiskit**, **qiskit-qasm3-import**, and **pylatexenc**
+- Install additional Python packages: **openpulse**, **jupyterlab**, **qiskit**, **qiskit-qasm3-import**, and **pylatexenc**
 
 ## Topics
 
