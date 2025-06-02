@@ -51,4 +51,4 @@ minimal python package installation to run the simulator.
 |_**Demo only**_|
 |Randomized compiling|15|[https://arxiv.org/html/2406.13967v1](https://arxiv.org/html/2406.13967v1)|
 |Parameterized circuit execution|15|[https://arxiv.org/html/2409.03725v1](https://arxiv.org/html/2409.03725v1)|
-|ML state descrimination|15|[https://arxiv.org/html/2406.18807v2](https://arxiv.org/html/2406.18807v2)|
+|ML state discrimination|15|[https://arxiv.org/html/2406.18807v2](https://arxiv.org/html/2406.18807v2)|
