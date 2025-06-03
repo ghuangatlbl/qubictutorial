@@ -38,7 +38,7 @@
         },
         "Q0": {
             "freq": 4460029188.07884,
-            "readfreq": 6100000000.0,
+            "readfreq": 6550000000.0,
             "Omega": 0.1
         }
     },
@@ -81,7 +81,7 @@
         "R0": {
             "Q": 3500,
             "resonant_frequency_0": 6553826000.000857,
-            "resonant_frequency_1": 6100000000.0
+            "resonant_frequency_1": 6550000000.0
         }
     }
 }

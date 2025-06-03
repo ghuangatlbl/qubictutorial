@@ -58,7 +58,7 @@
         },
         "Q0": {
             "freq": 4460029188.07884,
-            "readfreq": 6.1e9,
+            "readfreq": 6.55e9,
             "freq_predicted": 4504421000.0,
             "readfreq0": 6553826000.000857,
             "freq_ef": 4181258902.85729
@@ -267,7 +267,7 @@
             },
             {
                 "freq": "Q0.readfreq",
-                "phase": 1.4806632895920675,
+                "phase": "np.pi/2",
                 "dest": "Q0.rdlo",
                 "twidth": 1e-06,
                 "t0": 0,
