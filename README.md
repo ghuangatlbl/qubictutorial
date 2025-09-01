@@ -1,4 +1,4 @@
-# qce25tutorial
+# QCE25 tutorial
 
 ## Part 1: QubiC basic in simulation
 
