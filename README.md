@@ -1,5 +1,7 @@
 # QCE25 tutorial
 
+[Slides](https://docs.google.com/presentation/d/1heZ7pQJ8QLjwrxWxUXQtQ6E8PJoSItwjYzfQtlkznPY/edit?usp=sharing)
+
 ## Part 1: QubiC basic in simulation
 
 Download the part1 notebook from https://tinyurl.com/qce25qubicpart1
