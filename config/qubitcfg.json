@@ -1130,6 +1130,101 @@
                 ]
             }
         ],
+        "Q0Q1CZ": [
+            {
+                "freq": 5365000000.0,
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.27513,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "freq": 5365000000.0,
+                "phase": -3.34039,
+                "dest": "Q1.qdrv",
+                "twidth": 4e-07,
+                "t0": 0,
+                "amp": 0.27513,
+                "env": {
+                    "env_func": "cos_edge_square",
+                    "paradict": {
+                        "ramp_fraction": 0.25
+                    }
+                }
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q0.freq",
+                "phase": -2.54665
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": 1.17176
+            }
+        ],
+        "Q2Q1CR": [
+            {
+                "freq": "Q1.freq",
+                "phase": 0.0,
+                "dest": "Q2.qdrv",
+                "twidth": 3e-07,
+                "t0": 0.0,
+                "amp": 0.2996848606680771,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25,
+                            "ramp_length": 3.2e-08
+                        }
+                    }
+                ]
+            }
+        ],
+        "Q2Q1CNOT": [
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": -4.645855388119304
+            },
+            {
+                "gate": "Q2Q1CR"
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": 4.645855388119304
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q2.freq",
+                "phase": 4.21833701036719
+            },
+            {
+                "freq": "Q1.freq",
+                "phase": 0,
+                "dest": "Q1.qdrv",
+                "twidth": 3.2e-08,
+                "t0": 3e-07,
+                "amp": 0.14244080983375557,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ]
+            }
+        ],
         "Q3Z90": [
             {
                 "gate": "virtualz",
