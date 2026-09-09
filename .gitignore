@@ -1,0 +1,4 @@
+venv/
+config/channel_config_sim.json
+config/qubitcfg_sim.json
+qcal/
